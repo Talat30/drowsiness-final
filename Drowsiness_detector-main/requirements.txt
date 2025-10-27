@@ -1,3 +1,6 @@
 flask
-opencv-python-headless
 gunicorn
+opencv-python-headless
+numpy
+pygame
+scipy
