@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+}
+
+.video-section {
+  text-align: center;
+}
+
+.stats-section {
+  background: #1e293b;
+  padding: 20px 30px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.stats-section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+#stats p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+strong {
+  color: #93c5fd;
+}

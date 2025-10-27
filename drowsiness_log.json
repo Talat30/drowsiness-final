@@ -1,0 +1,315 @@
+[
+  {
+    "session_start": "2025-10-26T19:23:35.736784",
+    "session_end": "2025-10-26T19:24:13.994663",
+    "duration_seconds": 38.257879,
+    "statistics": {
+      "total_drowsy_events": 2,
+      "total_yawn_events": 0,
+      "total_frames": 291,
+      "drowsy_frames": 130
+    },
+    "events": [
+      {
+        "timestamp": "2025-10-26T19:24:05.772486",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.213258454348182,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:24:08.413088",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.18211446203933093,
+          "frames": 20
+        }
+      }
+    ]
+  },
+  {
+    "session_start": "2025-10-26T19:24:21.026981",
+    "session_end": "2025-10-26T19:25:09.218340",
+    "duration_seconds": 48.191359,
+    "statistics": {
+      "total_drowsy_events": 4,
+      "total_yawn_events": 0,
+      "total_frames": 500,
+      "drowsy_frames": 382
+    },
+    "events": [
+      {
+        "timestamp": "2025-10-26T19:24:45.490195",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.10000000000000003,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:24:49.509832",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.20655053706918466,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:24:56.211463",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.21010315052261452,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:25:00.594919",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.13022702091359256,
+          "frames": 20
+        }
+      }
+    ]
+  },
+  {
+    "session_start": "2025-10-26T19:25:33.930301",
+    "session_end": "2025-10-26T19:27:20.856154",
+    "duration_seconds": 106.925853,
+    "statistics": {
+      "total_drowsy_events": 9,
+      "total_yawn_events": 0,
+      "total_frames": 1465,
+      "drowsy_frames": 708
+    },
+    "events": [
+      {
+        "timestamp": "2025-10-26T19:25:56.070176",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.14785426042712643,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:26:11.862620",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.18817945407364423,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:26:15.024504",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.17582027659422153,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:26:45.784934",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.11775228854680567,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:26:48.846598",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.24616523843064336,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:27:07.124559",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.20970256480003172,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:27:11.940512",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.2175509943665922,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:27:15.944368",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.17868022879285628,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:27:17.533303",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.22607686885003406,
+          "frames": 20
+        }
+      }
+    ]
+  },
+  {
+    "session_start": "2025-10-26T19:27:57.315622",
+    "session_end": "2025-10-26T19:28:50.709126",
+    "duration_seconds": 53.393504,
+    "statistics": {
+      "total_drowsy_events": 3,
+      "total_yawn_events": 0,
+      "total_frames": 469,
+      "drowsy_frames": 111
+    },
+    "events": [
+      {
+        "timestamp": "2025-10-26T19:28:37.090358",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.16491999239312002,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:28:41.781826",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.16662793476465657,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:28:49.628238",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.2385021761066172,
+          "frames": 20
+        }
+      }
+    ]
+  },
+  {
+    "session_start": "2025-10-26T19:31:00.149620",
+    "session_end": "2025-10-26T19:32:43.448430",
+    "duration_seconds": 103.29881,
+    "statistics": {
+      "total_drowsy_events": 13,
+      "total_yawn_events": 0,
+      "total_frames": 1468,
+      "drowsy_frames": 733
+    },
+    "events": [
+      {
+        "timestamp": "2025-10-26T19:31:21.066658",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.24752931882778575,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:31:42.350856",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.10547729801797265,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:31:53.040484",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.19226333549105887,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:31:58.350523",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.16752980373091222,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:32:02.768358",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.15177614810069223,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:32:06.857096",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.12154453703703708,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:32:10.425043",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.10462383195785584,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:32:17.976083",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.11268328206992714,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:32:20.321785",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.10389564279172472,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:32:21.699648",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.10444565552472809,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:32:22.883214",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.13944095499734618,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:32:27.836422",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.24876122689276697,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-26T19:32:39.627766",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.13341844205389286,
+          "frames": 20
+        }
+      }
+    ]
+  }
+]

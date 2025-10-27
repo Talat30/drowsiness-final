@@ -1,0 +1,474 @@
+[
+  {
+    "session_start": "2025-10-07T13:09:45.634132",
+    "session_end": "2025-10-07T13:10:40.174022",
+    "duration_seconds": 54.53989,
+    "statistics": {
+      "total_drowsy_events": 3,
+      "total_yawn_events": 44,
+      "total_frames": 705,
+      "drowsy_frames": 153
+    },
+    "events": [
+      {
+        "timestamp": "2025-10-07T13:09:56.918844",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6961569575726222
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:09:57.710405",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6801290544930283
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:09:58.498632",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6739843327296191
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:02.574703",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6521958831843566
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:03.709145",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.63323242179155
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:04.499410",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6503509608619752
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:10.389281",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.669244683671839
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:11.167124",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6292365872551761
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:11.947170",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6691368772108972
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:12.752369",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6641961927676151
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:13.597688",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6948817878950444
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:14.416151",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6804743510627114
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:15.217627",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6366788326069787
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:16.011749",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6466506191813371
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:16.788851",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6942320986004037
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:17.559458",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.7202629383726276
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:18.345668",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6715242745085022
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:19.116324",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6641962080245656
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:19.906178",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.698804378797254
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:20.672438",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6422203772768322
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:21.458018",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6339942564420746
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:22.252623",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6829088595200151
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:23.036026",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6635801105246752
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:23.830124",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6367819680847416
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:24.666600",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6347941211985607
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:24.769720",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.2025072646406628,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:25.440002",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6385328964109429
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:26.207183",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6342678836743356
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:26.977993",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6291984324329438
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:27.243961",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.16817437967701754,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:27.780419",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6281467055465378
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:28.558502",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6292138108604006
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:29.324538",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6252214815361554
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:30.093867",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6233891070156808
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:30.860344",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6339056563749713
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:31.636297",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6375471428355625
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:32.412536",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6444030224512615
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:32.463864",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.18329470087223412,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:33.177473",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6690657156821688
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:33.946147",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.7215184238522567
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:34.715581",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.7550182580246394
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:35.471167",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.7640682522385557
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:36.255484",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.7325783396230229
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:37.035292",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6392866923514812
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:37.840131",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.60300136022649
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:38.626243",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6167269414733838
+        }
+      },
+      {
+        "timestamp": "2025-10-07T13:10:39.419447",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6373029980944714
+        }
+      }
+    ]
+  },
+  {
+    "session_start": "2025-10-07T14:05:32.976751",
+    "session_end": "2025-10-07T14:06:34.384672",
+    "duration_seconds": 61.407921,
+    "statistics": {
+      "total_drowsy_events": 2,
+      "total_yawn_events": 14,
+      "total_frames": 523,
+      "drowsy_frames": 162
+    },
+    "events": [
+      {
+        "timestamp": "2025-10-07T14:06:02.207545",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6588531157918484
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:04.516952",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6506438171076504
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:04.901175",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.1990284633910714,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:05.325635",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.640873505268613
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:09.105773",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6267428289124581
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:10.370830",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6906838239533072
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:11.173649",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.7486247465948132
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:11.971385",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.7865422912704323
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:12.776101",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.7598475286960554
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:15.659304",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6355628716361224
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:24.354671",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6837239885830741
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:24.618734",
+        "type": "drowsiness_alert",
+        "details": {
+          "ear": 0.20179158744393205,
+          "frames": 20
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:30.108711",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6511560035962827
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:30.908451",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6474030776119792
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:32.855806",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.6845248571495607
+        }
+      },
+      {
+        "timestamp": "2025-10-07T14:06:33.694479",
+        "type": "yawn_detected",
+        "details": {
+          "mar": 0.7003713697729163
+        }
+      }
+    ]
+  }
+]
