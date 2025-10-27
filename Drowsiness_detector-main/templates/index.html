@@ -2,40 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Drowsiness Detection System</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  <div class="page-container">
-    <div class="video-section">
-      <h1>Drowsiness Detection</h1>
-      <img src="{{ url_for('video_feed') }}" id="video" width="640" height="480">
-    </div>
+  <header>
+    <h1>Drowsiness Detection System</h1>
+  </header>
 
-    <div class="stats-section">
+  <main class="page-container">
+    <!-- Left side: Webcam Video Stream -->
+    <section class="video-section">
+      <div class="video-wrapper">
+        <img src="{{ url_for('video_feed') }}" id="video" width="640" height="480" alt="Live Video Feed">
+      </div>
+      <p class="note">Live webcam feed is streamed from the Python backend.</p>
+    </section>
+
+    <!-- Right side: Status Panel -->
+    <aside class="stats-section">
       <h2>Live Status</h2>
       <div id="stats">
         <p><strong>FPS:</strong> <span id="fps">0</span></p>
-        <p><strong>EAR:</strong> <span id="ear">0</span></p>
-        <p><strong>MAR:</strong> <span id="mar">0</span></p>
+        <p><strong>EAR:</strong> <span id="ear">0.000</span></p>
+        <p><strong>MAR:</strong> <span id="mar">0.000</span></p>
         <p><strong>Frame Count:</strong> <span id="frames">0</span></p>
-        <p><strong>Alert:</strong> <span id="alert">None</span></p>
+        <p><strong>Alert:</strong> <span id="alert" class="neutral">None</span></p>
       </div>
-    </div>
-  </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 Drowsiness Detection Project | Built with Flask + OpenCV</p>
+  </footer>
 
   <script>
-    // Fetch live status every 0.5 sec
+    // Fetch live status from Flask backend every 0.5 seconds
     setInterval(() => {
       fetch("/status")
         .then(res => res.json())
         .then(data => {
-          document.getElementById("fps").textContent = data.fps;
-          document.getElementById("ear").textContent = data.ear;
-          document.getElementById("mar").textContent = data.mar;
+          document.getElementById("fps").textContent = data.fps.toFixed(2);
+          document.getElementById("ear").textContent = data.ear.toFixed(3);
+          document.getElementById("mar").textContent = data.mar.toFixed(3);
           document.getElementById("frames").textContent = data.frame_count;
-          document.getElementById("alert").textContent = data.alert;
-        });
+          const alertElem = document.getElementById("alert");
+          alertElem.textContent = data.alert;
+
+          // Change alert color dynamically
+          if (data.alert === "Drowsy") {
+            alertElem.className = "drowsy";
+          } else if (data.alert === "Awake") {
+            alertElem.className = "awake";
+          } else {
+            alertElem.className = "neutral";
+          }
+        })
+        .catch(err => console.error("Status fetch error:", err));
     }, 500);
   </script>
 </body>
